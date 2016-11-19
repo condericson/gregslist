@@ -1,0 +1,118 @@
+* {
+	font-family: "Roboto", sans-serif;
+}
+
+
+nav.screentop {
+	background-color: #ECECEC;
+	position: fixed;
+	width: 100%;
+	border: solid .5px #dddddd;
+	height: 50px;
+	font-weight: bold;
+}
+
+header {
+	padding-left: 10px;
+	display: inline-block;
+	margin-top: 16px;
+
+}
+
+ul {
+	display: inline-block;
+	float: right;
+	padding-right: 30px;
+}
+
+
+li {
+	display: inline-block;
+	padding-left: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+form, nav.page, .result {
+	margin-left: 80px;
+}
+
+form {
+	margin-top: 90px;
+	margin-bottom: 40px;
+	display: inline-block;
+	height: 21px;
+}
+
+form > img {
+	height: 23px;
+	position: relative;
+	top: 8px;
+	}
+
+input {
+	height: 21px;
+	width: 500px;
+	font-size: 8;
+	letter-spacing: .3px;
+}
+
+
+input, form > img {
+	border: solid .5px #dddddd;
+	border-radius: 2px;
+
+}
+
+
+
+section > a {
+	color: blue;
+	font-weight: bold;
+}
+
+section > p, section > a {
+	display: inline-block;
+}
+
+.jobtitle, .location {
+	padding-left: 10px;
+}
+
+.dates, .location {
+	color: #c4c4c4;
+	font-weight: bold;
+}
+
+.page {
+  display: inline-block; /* Tricky, this could start wrapping!  */
+  font-size: 0;
+  margin-bottom: 30px;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+}
+
+.pagebuttons {
+  font-size: 16px;
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 3px;
+  display: inline-block;
+  background-color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.pagedisplay {
+  font-size: 16px;
+  padding: 0 30px;
+  padding: 8px 25px;
+  border-left: 1px solid #DDDDDD;
+  border-right: 1px solid #DDDDDD;
+}
